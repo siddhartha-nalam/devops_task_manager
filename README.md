@@ -33,6 +33,7 @@ Or run with Docker:
 docker build -t devops-task-manager:local .
 docker run -p 5000:5000 devops-task-manager:local
 ```
+make sure that Docker Engine is running
 
 ## Deploy to AWS EC2 (manual steps)
 1. Launch an EC2 instance (Ubuntu 22.04 recommended). Open ports: 22 (SSH), 80 (HTTP).
